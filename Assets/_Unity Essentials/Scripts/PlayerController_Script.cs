@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody rb; // Reference to player's Rigidbody.
 
+    [SerializeField] float stepHeight = 0.3f;
+    [SerializeField] float stepSmooth = 0.1f;
     // Start is called before the first frame update
     private void Start()
     {
